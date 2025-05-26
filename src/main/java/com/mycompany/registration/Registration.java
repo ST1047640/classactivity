@@ -1,7 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.registration;
 
 import javax.swing.JOptionPane;
@@ -65,5 +64,6 @@ public class Registration {
     public static void main(String[] args) {
         Registration userRegistration = new Registration();
         userRegistration.RegisterUser();
+        Message.startMessaging();
     }
 }
